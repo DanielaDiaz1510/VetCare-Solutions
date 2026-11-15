@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Escudo con cruz (vacunas). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path android:fillColor="#FF000000" android:fillType="evenOdd" android:pathData="M12,2 L4,5 L4,11 C4,16 7.4,20.7 12,22 C16.6,20.7 20,16 20,11 L20,5 Z M11,8 L13,8 L13,11 L16,11 L16,13 L13,13 L13,16 L11,16 L11,13 L8,13 L8,11 L11,11 Z" />
+</vector>

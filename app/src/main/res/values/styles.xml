@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Tipografía: Poppins para títulos (la misma del logo); el texto normal usa la del sistema -->
+    <style name="TextAppearance.VetCare.Titulo" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextAppearance.VetCare.Subtitulo" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="TextAppearance.VetCare.Marca" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+
+    <style name="TextAppearance.VetCare.Numero" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <!-- Botones: más altos y con esquinas redondeadas -->
+    <style name="Widget.VetCare.Button" parent="Widget.Material3.Button">
+        <item name="android:minHeight">52dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="cornerRadius">16dp</item>
+    </style>
+
+    <style name="Widget.VetCare.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:minHeight">52dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="cornerRadius">16dp</item>
+    </style>
+
+    <style name="Widget.VetCare.Button.Tonal" parent="Widget.Material3.Button.TonalButton">
+        <item name="android:minHeight">52dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="cornerRadius">16dp</item>
+    </style>
+
+    <style name="Widget.VetCare.Button.Text" parent="Widget.Material3.Button.TextButton">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <!-- Botones grandes con ícono arriba (módulos del Home) -->
+    <style name="Widget.VetCare.Button.Modulo" parent="Widget.Material3.Button.TonalButton">
+        <item name="android:minHeight">104dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="cornerRadius">20dp</item>
+        <item name="iconGravity">top</item>
+        <item name="iconSize">30dp</item>
+        <item name="iconPadding">6dp</item>
+    </style>
+
+    <!-- Campos de texto: borde redondeado -->
+    <style name="Widget.VetCare.TextInput" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">14dp</item>
+        <item name="boxCornerRadiusTopEnd">14dp</item>
+        <item name="boxCornerRadiusBottomStart">14dp</item>
+        <item name="boxCornerRadiusBottomEnd">14dp</item>
+    </style>
+
+    <!-- Barra superior con flecha de retroceso -->
+    <style name="Widget.VetCare.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="android:background">?attr/colorSurface</item>
+        <item name="navigationIconTint">?attr/colorOnSurface</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+    </style>
+
+    <!-- Texto del título dentro de la barra superior -->
+    <style name="Texto.TituloBarra" parent="TextAppearance.VetCare.Titulo">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- Etiquetas pequeñas sobre los filtros -->
+    <style name="Texto.Etiqueta" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+    </style>
+</resources>

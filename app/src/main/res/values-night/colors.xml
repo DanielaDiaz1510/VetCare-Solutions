@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Versiones claras para que se lean sobre fondo oscuro -->
+    <color name="estado_ok">#7DDC93</color>
+    <color name="estado_error">#FFB4AB</color>
+    <color name="estado_info">#A8C7FF</color>
+</resources>

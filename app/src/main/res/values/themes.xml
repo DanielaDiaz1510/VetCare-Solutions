@@ -1,0 +1,48 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- ===== Tema claro: paleta Material 3 basada en el verde azulado de la marca ===== -->
+    <style name="Base.Theme.VetCare" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#0B6E6B</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorPrimaryContainer">#BDEFEA</item>
+        <item name="colorOnPrimaryContainer">#00201F</item>
+
+        <item name="colorSecondary">#4A6361</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="colorSecondaryContainer">#CCE8E5</item>
+        <item name="colorOnSecondaryContainer">#05201F</item>
+
+        <item name="colorTertiary">#A8481F</item>
+        <item name="colorOnTertiary">#FFFFFF</item>
+        <item name="colorTertiaryContainer">#FFDBCD</item>
+        <item name="colorOnTertiaryContainer">#380D00</item>
+
+        <item name="colorError">#B3261E</item>
+        <item name="colorOnError">#FFFFFF</item>
+        <item name="colorErrorContainer">#F9DEDC</item>
+        <item name="colorOnErrorContainer">#410E0B</item>
+
+        <item name="android:colorBackground">#F5FAF9</item>
+        <item name="colorOnBackground">#171D1C</item>
+        <item name="colorSurface">#F5FAF9</item>
+        <item name="colorOnSurface">#171D1C</item>
+        <item name="colorSurfaceVariant">#DAE5E3</item>
+        <item name="colorOnSurfaceVariant">#3F4948</item>
+        <item name="colorOutline">#6F7978</item>
+        <item name="colorOutlineVariant">#BEC9C7</item>
+        <item name="colorSurfaceContainerLowest">#FFFFFF</item>
+        <item name="colorSurfaceContainerLow">#EFF5F3</item>
+        <item name="colorSurfaceContainer">#E9EFEE</item>
+        <item name="colorSurfaceContainerHigh">#E4EAE8</item>
+        <item name="colorSurfaceContainerHighest">#DEE4E2</item>
+
+        <!-- Estilos propios de la app -->
+        <item name="materialButtonStyle">@style/Widget.VetCare.Button</item>
+        <item name="textInputStyle">@style/Widget.VetCare.TextInput</item>
+        <item name="textAppearanceHeadlineSmall">@style/TextAppearance.VetCare.Titulo</item>
+        <item name="textAppearanceTitleLarge">@style/TextAppearance.VetCare.Titulo</item>
+        <item name="textAppearanceTitleMedium">@style/TextAppearance.VetCare.Subtitulo</item>
+    </style>
+
+    <style name="Theme.VetCare" parent="Base.Theme.VetCare" />
+</resources>

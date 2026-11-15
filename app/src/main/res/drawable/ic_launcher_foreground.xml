@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Primer plano del ícono: huella con una cruz veterinaria en la almohadilla (la cruz es un hueco). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group android:rotation="-10" android:pivotX="43.5" android:pivotY="38.50">
+        <path android:fillColor="#FFFFFFFF" android:pathData="M36.90,38.50 a6.6,9.2 0 1,0 13.20,0 a6.6,9.2 0 1,0 -13.20,0 Z" />
+    </group>
+    <group android:rotation="10" android:pivotX="64.5" android:pivotY="38.50">
+        <path android:fillColor="#FFFFFFFF" android:pathData="M57.90,38.50 a6.6,9.2 0 1,0 13.20,0 a6.6,9.2 0 1,0 -13.20,0 Z" />
+    </group>
+    <group android:rotation="-30" android:pivotX="29.5" android:pivotY="52.50">
+        <path android:fillColor="#FFFFFFFF" android:pathData="M23.50,52.50 a6.0,8.4 0 1,0 12.00,0 a6.0,8.4 0 1,0 -12.00,0 Z" />
+    </group>
+    <group android:rotation="30" android:pivotX="78.5" android:pivotY="52.50">
+        <path android:fillColor="#FFFFFFFF" android:pathData="M72.50,52.50 a6.0,8.4 0 1,0 12.00,0 a6.0,8.4 0 1,0 -12.00,0 Z" />
+    </group>
+    <path android:fillColor="#FFFFFFFF" android:fillType="evenOdd"
+        android:pathData="M 54.00,52.50 C 62.00,52.50 71.00,59.50 71.00,68.50 C 71.00,75.50 66.00,79.50 60.00,79.50 C 57.00,79.50 55.50,78.50 54.00,77.50 C 52.50,78.50 51.00,79.50 48.00,79.50 C 42.00,79.50 37.00,75.50 37.00,68.50 C 37.00,59.50 46.00,52.50 54.00,52.50 Z M 52.40,61.90 L 55.60,61.90 L 55.60,65.90 L 59.60,65.90 L 59.60,69.10 L 55.60,69.10 L 55.60,73.10 L 52.40,73.10 L 52.40,69.10 L 48.40,69.10 L 48.40,65.90 L 52.40,65.90 Z" />
+</vector>

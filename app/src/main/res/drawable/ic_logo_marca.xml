@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Logo de VetCare para usar dentro de la app (pantalla de inicio de sesión y Home). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path android:pathData="M26,0 L82,0 C96.4,0 108,11.6 108,26 L108,82 C108,96.4 96.4,108 82,108 L26,108 C11.6,108 0,96.4 0,82 L0,26 C0,11.6 11.6,0 26,0 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="0"
+                android:endX="54"
+                android:endY="108"
+                android:startColor="#FF16A39B"
+                android:endColor="#FF0B6E6B"
+                android:type="linear" />
+        </aapt:attr>
+    </path>
+    <group android:scaleX="1.14" android:scaleY="1.14" android:pivotX="54" android:pivotY="54">
+    <group android:rotation="-10" android:pivotX="43.5" android:pivotY="38.50">
+        <path android:fillColor="#FFFFFFFF" android:pathData="M36.90,38.50 a6.6,9.2 0 1,0 13.20,0 a6.6,9.2 0 1,0 -13.20,0 Z" />
+    </group>
+    <group android:rotation="10" android:pivotX="64.5" android:pivotY="38.50">
+        <path android:fillColor="#FFFFFFFF" android:pathData="M57.90,38.50 a6.6,9.2 0 1,0 13.20,0 a6.6,9.2 0 1,0 -13.20,0 Z" />
+    </group>
+    <group android:rotation="-30" android:pivotX="29.5" android:pivotY="52.50">
+        <path android:fillColor="#FFFFFFFF" android:pathData="M23.50,52.50 a6.0,8.4 0 1,0 12.00,0 a6.0,8.4 0 1,0 -12.00,0 Z" />
+    </group>
+    <group android:rotation="30" android:pivotX="78.5" android:pivotY="52.50">
+        <path android:fillColor="#FFFFFFFF" android:pathData="M72.50,52.50 a6.0,8.4 0 1,0 12.00,0 a6.0,8.4 0 1,0 -12.00,0 Z" />
+    </group>
+    <path android:fillColor="#FFFFFFFF" android:fillType="evenOdd"
+        android:pathData="M 54.00,52.50 C 62.00,52.50 71.00,59.50 71.00,68.50 C 71.00,75.50 66.00,79.50 60.00,79.50 C 57.00,79.50 55.50,78.50 54.00,77.50 C 52.50,78.50 51.00,79.50 48.00,79.50 C 42.00,79.50 37.00,75.50 37.00,68.50 C 37.00,59.50 46.00,52.50 54.00,52.50 Z M 52.40,61.90 L 55.60,61.90 L 55.60,65.90 L 59.60,65.90 L 59.60,69.10 L 55.60,69.10 L 55.60,73.10 L 52.40,73.10 L 52.40,69.10 L 48.40,69.10 L 48.40,65.90 L 52.40,65.90 Z" />
+    </group>
+</vector>

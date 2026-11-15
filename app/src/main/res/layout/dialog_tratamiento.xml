@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medicamento *"
+        android:textColor="?attr/colorOnSurfaceVariant"
+        android:textSize="13sp" />
+
+    <Spinner
+        android:id="@+id/spMedicamento"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@drawable/bg_spinner"
+        android:paddingStart="12dp"
+        android:paddingEnd="40dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilDosis"
+        style="@style/Widget.VetCare.TextInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Dosis * (ej. 250 mg)">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etDosis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilFrecuencia"
+        style="@style/Widget.VetCare.TextInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Frecuencia * (ej. cada 8 horas)">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etFrecuencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilDuracion"
+        style="@style/Widget.VetCare.TextInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Duración en días (1 a 365)">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etDuracion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilIndicaciones"
+        style="@style/Widget.VetCare.TextInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Indicaciones">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etIndicaciones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapSentences|textMultiLine" />
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>

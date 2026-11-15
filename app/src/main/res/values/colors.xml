@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Marca VetCare: verde azulado + coral de acento -->
+    <color name="brand_teal">#0B6E6B</color>
+    <color name="brand_teal_light">#16A39B</color>
+    <color name="brand_coral">#FF8A5B</color>
+
+    <!-- Estados de las listas (ACTIVA / ATENDIDA / CANCELADA / PROGRAMADA) -->
+    <color name="estado_ok">#1B6E2F</color>
+    <color name="estado_error">#B3261E</color>
+    <color name="estado_info">#0B57D0</color>
+</resources>
